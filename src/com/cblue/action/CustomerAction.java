@@ -16,7 +16,7 @@ public class CustomerAction extends ActionSupport {
 		System.out.println("CustomerAction--register");
 		Customer customer = new Customer();
 		customer.setName("wuchao");
-		customerService.registerCustomer(customer);
+		customerService.register(customer);
 		return NONE;
 	}
 

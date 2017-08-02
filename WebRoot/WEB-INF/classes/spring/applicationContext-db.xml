@@ -30,6 +30,12 @@
 	</bean>
 	
 	<!-- 创建SessionFactory -->
+	<!-- <bean id="sessionFactory1"  class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="configLocation">
+			<value>classpath:hibernate.cfg.xml</value>
+		</property>
+	</bean> -->
+	
 	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"></property>
 		<!-- 指向了映射文件所在的路径-->

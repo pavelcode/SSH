@@ -16,6 +16,7 @@
 	
 	<import resource="applicationContext-db.xml"/>
 	<import resource="applicationContext-customer.xml"/>
+	<import resource="applicationContext-page.xml"/>
 	
 </beans>
 

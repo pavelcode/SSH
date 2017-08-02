@@ -9,6 +9,14 @@ package com.cblue.entity;
 public class Customer  implements java.io.Serializable {
 
 
+	public Customer() {
+		super();
+	}
+	public Customer(String name, String pass) {
+		super();
+		this.name = name;
+		this.pass = pass;
+	}
 	private int id;
 	private String name;
 	private String pass;
@@ -29,6 +37,10 @@ public class Customer  implements java.io.Serializable {
 	}
 	public void setPass(String pass) {
 		this.pass = pass;
+	}
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", pass=" + pass + "]";
 	}
 	
 

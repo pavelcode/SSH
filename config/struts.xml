@@ -8,7 +8,9 @@
      <!-- struts.devMode包括了struts.configuration.xml.reload，前者设置为true则后者也就自动设置为true-->
      <constant name="struts.devMode" value="true" />
      <constant name="struts.action.extension" value="action,do,ttt"/>
+     
     
     <include file="struts/struts-customer.xml"></include>
+    <include file="struts/struts-page.xml"></include>
 
 </struts>
